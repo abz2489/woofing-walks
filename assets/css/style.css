@@ -2,18 +2,32 @@
 .navbar {
     padding: 0; /* remove gap at top of navbar */
 }
+
 .navbar-container {
     background-color: #4c956c;
     ;
 }
+
 .navbar-brand {
     font-family: "Kalam", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 70px;
     color: #f5f5f5;
     margin-left: 20px;
     padding-bottom: 0;
 }
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #f5f5f5;
+}
+
+button {
+    background-color:#33658a;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
 button a.nav-link {
     background-color: #33658a;
     color: #f5f5f5;
@@ -25,13 +39,12 @@ button a.nav-link {
      color: #f5f5f5;
 }
 
-button {
-    background-color:#33658a;
-    margin: 20px;
-    border: none;
-    border-radius: 10px;
-}
+/* Media Queries */
+@media screen and (min-width: 280px)
+    .navbar-brand {
+      font-size: 40px;
+      margin: auto;
+      padding-top: 20px;
+    }
 
-.navbar-brand:focus, .navbar-brand:hover {
-    color: #f5f5f5;
-}
+/* Hero Image */
