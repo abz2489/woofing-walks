@@ -1,20 +1,16 @@
 /* Navbar */
 .navbar {
     padding: 0; /* remove gap at top of navbar */
-}
-
-.navbar-container {
     background-color: #4c956c;
-    ;
 }
 
 .navbar-brand {
     font-family: "Kalam", sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 40px;
     color: #f5f5f5;
-    margin-left: 20px;
-    padding-bottom: 0;
+    margin-left: 30px;
+    padding: auto;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -26,6 +22,7 @@ button {
     margin: 20px;
     border: none;
     border-radius: 10px;
+    color: #f5f5f5;
 }
 
 button a.nav-link {
@@ -40,11 +37,33 @@ button a.nav-link {
 }
 
 /* Media Queries */
-@media screen and (min-width: 280px)
-    .navbar-brand {
-      font-size: 40px;
-      margin: auto;
-      padding-top: 20px;
-    }
+
 
 /* Hero Image */
+.container {
+    width: 100%;
+    height: 600px;
+}
+.hero-img.img-fluid {
+    background-image: url('../images/pexels-dogs-water-21-crop.jpg');
+    width: 100%;
+    height: 33vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /*background-size: 375px 225px;*/
+}
+
+.title-cta {
+    top: 275px;
+    left: 15px;
+    color: #f5f5f5;
+    font-family: "Wellfleet", sans-serif;
+    text-align: center;
+    background-color: #4c956c;
+    padding: 25px 30px 5px;
+    border-radius: 10px;
+}
+
+.more-info {
+    padding: 10px;
+}
