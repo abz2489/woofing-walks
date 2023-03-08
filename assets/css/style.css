@@ -96,3 +96,15 @@ i {
 div p.large-text {
     font-size: 50px;
 }
+
+/* Footer */
+#footer  {
+    background-color: #4c956c;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #f5f5f5;
+}
+
