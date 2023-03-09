@@ -10,11 +10,10 @@ The website provides in depth information of what new customers can expect from 
 #### **First Time Visitor Goals**
 - To easily identify what Woofing Walks is.
 - To easily navigate the Woofing Walks website for more information.
-- To request a call to book my free meet & greet.
+- Easily find contact information to book.
 - To access Woofing Walks' social media.
 
 #### **Returning Visitor Goals**
-- To find contact information for Woofing Walks.
 - To find a price list or hourly rate for walks.
 - To see testimonials from recent customers of Woofing Walks.
 
@@ -33,7 +32,10 @@ The website provides in depth information of what new customers can expect from 
 ### Future Features
 
 ## **Testing**
-### Validator Testing
+### W3C Validator Testing
+### Solved Bugs
+1. Footer has small gap at the bottom on anything smaller than a tablet.
+2. W3C validator showed error with nav buttons including a tags. I fixed this by removing the button tag, adding a button class and styling the button using CSS. Fixing this error affected my "more info" button in my hero image section. This was easily fixed by adding the button class previously used.
 ### Unfixed Bugs
 
 ## **Deployment**
