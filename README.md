@@ -33,6 +33,7 @@ The website provides in depth information of what new customers can expect from 
 
 ## **Testing**
 ### W3C Validator Testing
+[Index Page HTML](https://github.com/abz2489/woofing-walks/blob/main/docs/readme/testing/w3c/w3cindex.png)
 ### Solved Bugs
 1. Footer has small gap at the bottom on anything smaller than a tablet.
 2. W3C validator showed error with nav buttons including a tags. I fixed this by removing the button tag, adding a button class and styling the button using CSS. Fixing this error affected my "more info" button in my hero image section. This was easily fixed by adding the button class previously used.
