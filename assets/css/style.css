@@ -111,10 +111,18 @@ div p.large-text {
     font-size: 3.13rem;
 }
 
-/*Our Story*/
+/*About Page*/
+
+/*Make our story title larger with same margin as p elements*/
 h1.title {
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+/*soft edges on first image of about page and add top margin*/
+img.img-round {
+    border-radius: 0.94rem;
+    margin-top: 1rem;
 }
 
 /* Media Queries */
