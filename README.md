@@ -46,3 +46,15 @@ The website provides in depth information of what new customers can expect from 
 ## **Credits**
 ### Content
 ### Media
+
+All images for Woofing Walks were sourced from [Pexels](https://www.pexels.com).
+#### Index Page
+
+
+
+-[Hero Image](https://www.pexels.com/photo/two-adult-harrier-dogs-standing-beside-river-1144410/)
+
+https://www.pexels.com/photo/two-adult-black-and-tan-german-shepherds-running-on-ground-1633522/
+https://www.pexels.com/photo/a-dog-biting-a-branch-12729351/
+
+
