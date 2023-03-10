@@ -153,11 +153,15 @@ div.row {
     }
     .title-cta {
         position: absolute;
-        top: 10%;
-        left: 68%;
+        top: 15%;
+        left: 69%;
         width: 30%;
         border-radius: 10px;
         background-color: rgba(76, 149, 108, 0.8);
         padding: 40px 40px 10px;
+    }
+
+    .button.more-info {
+        font-size: 20px;
     }
 }
