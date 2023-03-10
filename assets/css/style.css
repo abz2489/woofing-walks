@@ -33,10 +33,6 @@ i {
     padding-left: 0.31rem;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-     color: #f5f5f5;
-}
-
 .navbar-toggler {
     margin-right: 0.63rem;
 }
