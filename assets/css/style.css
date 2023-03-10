@@ -68,7 +68,7 @@ a {
 
 /* Hero Image */
 .hero-img.img-fluid {
-    background-image: url('../images/pexels-dogs-water-21-crop.jpg');
+    background-image: url('../images/pexels-dogs-water-21-crop.webp');
     height: 33vh;
     background-size: cover;
     background-repeat: no-repeat;
