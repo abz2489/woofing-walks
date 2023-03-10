@@ -36,7 +36,7 @@ i {
     font-family: "Kalam", sans-serif;
     color: #f5f5f5;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-left: 1.25rem;
 }
 
@@ -53,6 +53,7 @@ i {
 
 .navbar-toggler {
     margin-right: 0.63rem;
+    font-size: 2rem;
 }
 
 /* Footer */
@@ -87,7 +88,7 @@ a {
 .more-info {
     margin: 0.63rem 0.94rem 0.94rem;
     padding: 0.5rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 /* Services Summary */
@@ -108,6 +109,12 @@ div.frame {
 
 div p.large-text {
     font-size: 3.13rem;
+}
+
+/*Our Story*/
+h1.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 /* Media Queries */
