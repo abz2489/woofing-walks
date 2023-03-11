@@ -32,7 +32,7 @@ i {
     font-family: "Kalam", sans-serif;
     color: #f5f5f5;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 2.8rem;
     margin-left: 1.25rem;
 }
 
@@ -48,8 +48,8 @@ i {
 }
 
 .navbar-toggler {
-    margin-right: 0.63rem;
-    font-size: 2rem;
+    margin-right: 1.5rem;
+    font-size: 1.75rem;
 }
 
 /* Footer */
@@ -84,7 +84,7 @@ a {
 .more-info {
     margin: 0.63rem 0.94rem 0.94rem;
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 /* Services Summary */
@@ -123,7 +123,7 @@ div p.large-text {
 }
 
 /*soft edges on first image of about page and add top margin*/
-img.img-round {
+img.img-round-edge {
     border-radius: 0.94rem;
     margin-top: 1rem;
 }
@@ -132,6 +132,14 @@ img.img-round {
 
 /* Media Queries */
 @media (min-width: 576px) {
+    .navbar-brand {
+        font-size: 4rem;
+        margin-left: 1.25rem;
+    }
+    .navbar-toggler {
+        margin-bottom: 1rem;
+        font-size: 1.81rem;
+    }
     .hero-img.img-fluid {
         width: 100%;
         height: 40vh;
@@ -141,13 +149,13 @@ img.img-round {
     }
     
     h1 {
-        font-size: 35px;
+        font-size: 2.2rem;
     }
     div h2 {
-        font-size: 25px;
+        font-size: 1.57rem;
     }
     .button.more-info {
-        font-size: 13px;
+        font-size: 2rem;
     }
 }
 
