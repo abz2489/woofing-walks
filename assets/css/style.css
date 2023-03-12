@@ -1,5 +1,4 @@
 /*Global Styles*/
-
 body {
     font-family: "Wellfleet", sans-serif;
     text-align: center;
@@ -8,19 +7,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Wellfleet", sans-serif;
+    font-weight: 400;
 }
 
 p {
     font-family: "Heebo", sans-serif;
     font-size: 1.15rem;
-    font-weight: 500;
+    font-weight: 400;
 }
-
-i {
-    font-size: 3.75rem; 
-    padding: 1.25rem;
- }
 
 /* Navbar */
 .navbar {
@@ -32,24 +26,26 @@ i {
     font-family: "Kalam", sans-serif;
     color: #f5f5f5;
     font-weight: 700;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     margin-left: 1.25rem;
 }
 
 .button {
     background-color:#33658a;
-    margin: 1.25rem;
-    border: none;
-    border-radius: 0.63rem;
     color: #f5f5f5;
     text-align: center;
+    border: none;
+    border-radius: 0.63rem;
+    font-size: 1.1rem;
+
+    margin: 1.25rem;
     padding-right: 0.31rem;
     padding-left: 0.31rem;
 }
 
 .navbar-toggler {
-    margin-right: 1.5rem;
     font-size: 1.75rem;
+    margin-right: 1.5rem;
 }
 
 /* Footer */
@@ -62,6 +58,10 @@ a {
     color: #f5f5f5;
 }
 
+i {
+    padding: 1rem;
+ }
+
 /* Hero Image */
 .hero-img.img-fluid {
     background-image: url('../images/pexels-dogs-water-21-crop.webp');
@@ -71,66 +71,55 @@ a {
     background-position: center;
 }
 
-.title-cta {
-    top: 17rem;
-    left: 0.94rem;
+.cta-title {
     color: #f5f5f5;
-    font-family: "Wellfleet", sans-serif;
     text-align: center;
     background-color: #4c956c;
     padding: 1.56rem 1.88rem 0.31rem;
 }
 
-.more-info {
+.cta-button {
     margin: 0.63rem 0.94rem 0.94rem;
     padding: 0.5rem;
     font-size: 1.2rem;
 }
 
 /* Services Summary */
-.bold {
-    font-weight: 400;
+.sub-title {
     font-size: 2.19rem;
     padding-top: 0.94rem;
 }
 
 div.frame {
-    margin: 1.88rem 0.31rem 0.63rem 0;
-    border: 4px solid #33658a;
-    border-radius: 0.94rem;
-    font-size: 1.13rem;
     background-color: #33658a;
     color: #f5f5f5;
+    border: 4px solid #33658a;
+    border-radius: 0.94rem;
+    margin: 1.88rem 0.31rem 0.63rem 0;
 }
 
-div p.large-text {
-    font-family: "Wellfleet", sans-serif;
-    font-size: 3rem;
-}
+/*About Page*/
 
-/*Our Story Section*/
-
-.section {
+.story-section {
     background-color: #33658a;
     color: #f5f5f5;
     padding: 0 0 3rem;
     
 }
-/*Make section headers on about page larger with same margin as p elements*/
-.header {
+
+.about-titles {
     font-size: 2.75rem;
     margin-bottom: 1rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
-/*soft edges on first image of about page and add top margin*/
 img.img-round-edge {
     border-radius: 0.94rem;
     margin-top: 1rem;
 }
 
 /*Our Mission Section*/
-.margin-bottom {
+.mission {
     margin-bottom: 2rem;
 }
 
@@ -145,7 +134,7 @@ i.round {
     background-color: #33658a;
     color: #f5f5f5;
     border-radius: 50%;
-    margin: 1.5rem;
+    margin: 1.5rem 1.5rem 0em;
 }
 
 
