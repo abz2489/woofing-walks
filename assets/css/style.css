@@ -61,8 +61,8 @@ a {
 i {
     padding: 1rem;
  }
-
-/* Hero Image */
+/* Home Page (HP) */
+/*HP Hero Image */
 .hero-img.img-fluid {
     background-image: url('../images/pexels-dogs-water-21-crop.webp');
     height: 33vh;
@@ -84,7 +84,7 @@ i {
     font-size: 1.2rem;
 }
 
-/* Services Summary */
+/*HP Services Summary */
 .sub-title {
     font-size: 2.19rem;
     padding-top: 0.94rem;
@@ -98,8 +98,8 @@ div.frame {
     margin: 1.88rem 0.31rem 0.63rem 0;
 }
 
-/*About Page*/
-
+/*About Page (AP)*/
+/*AP Our Story Section*/
 .story-section {
     background-color: #33658a;
     color: #f5f5f5;
@@ -118,7 +118,7 @@ img.img-round-edge {
     margin-top: 1rem;
 }
 
-/*Our Mission Section*/
+/*AP Our Mission Section*/
 .mission {
     margin-bottom: 2rem;
 }
@@ -129,7 +129,7 @@ hr {
     color:#33658a;
 }
 
-/*How it Works Section*/
+/*AP How it Works Section*/
 i.round {
     background-color: #33658a;
     color: #f5f5f5;
@@ -137,7 +137,20 @@ i.round {
     margin: 1.5rem 1.5rem 0em;
 }
 
+/*Contact Page (CP)*/
+/*CP Contact Us Section*/
+/*CP Form Section*/
+#green {
+    background-color: #4c956c;
+    font-size: 1.2rem;
 
+    padding: 0.75rem;
+}
+
+.blue-text {
+    color: black;
+    font-size: 1.2rem;
+}
 /* Media Queries */
 @media (min-width: 576px) {
     .navbar-brand {
@@ -201,4 +214,10 @@ i.round {
     .button.more-info {
         font-size: 20px;
     }
+}
+@media (min-width: 992px) {
+    .frame {
+        margin: 1rem 3rem;
+        align-items: center;
+}
 }

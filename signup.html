@@ -12,7 +12,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Kalam:wght@300;400;700&family=Wellfleet&display=swap"
     rel="stylesheet">
-  <script src="https://kit.fontawesome.com/133d2b6a17.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <title>Woofing Walks</title>
 
@@ -30,11 +29,69 @@
       <div class="navbar-nav ms-auto">
         <a class="nav-link button" aria-current="page" href="index.html">Home</a>
         <a class="nav-link button" href="aboutus.html">About</a>
-        <a class="nav-link button" href="signup.html">Sign Up</a>
+        <a class="nav-link button" href="signup.html">Contact Us</a>
       </div>
     </div>
   </nav>
+  <!--Contact Information-->
+  <div class="contact">
+    <div class="container">
+      <h2 class="about-titles">Contact Us</h2>
+      <p>Get in touch with us or fill out our contact form and a member of our team will call you</p>
 
+      <div class="address">
+        <span>Email Address:</span><span>woofing_walks@email.com</span>
+
+        <span>Phone Number:</span><span></span>01443 449899</span>
+      </div>
+    </div>
+  </div>
+
+  <!--Contact Form-->
+  <div class="frame">
+    <form class="form-control-xs" method="POST" action="thankyou.html">
+      <div class="mb-3">
+        <label for="f-name" class="form-label">First Name:</label>
+        <input type="text" class="form-control" id="f-name" name="first-name" required>
+      </div>
+      <div class="mb-3">
+        <label for="l-name" class="form-label">Last Name:</label>
+        <input type="text" class="form-control" id="l-name" name="last-name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail Address:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Telephone Number:</label>
+        <input type="tel" class="form-control" id="phone" name="phone-number" required>
+      </div>
+      <div class="mb-3">
+        <label for="dog-name" class="form-label">Dog's Name:</label>
+        <input type="text" class="form-control" id="dog-name" name="dogs-name" required>
+      </div>
+      <div class="mb-3">
+        <label for="dog-breed" class="form-label">Dog's Breed:</label>
+        <input type="text" class="form-control" id="dog-breed" name="dogs-breed" required>
+      </div>
+
+      <div class="mb-4">
+        <label for="service" class="form-label">Choose a Service:</label>
+        <select for="service" class="form-select" name="service" id="service" required>
+          <option value="dog-walk" selected>Dog Walk</option>
+          <option value="day-care">Doggy Day Care</option>
+        </select>
+      </div>
+
+      <div class="form-floating">
+        <textarea id="additional-info" class="form-control" required></textarea>
+        <label for="additional-info" class="blue-text">Additional info...</label>
+      </div>
+
+      <button type="submit" class="button" id="green">Submit</button>
+
+    </form>
+  </div>
   <!--Footer-->
   <footer class="sticky-bottom" id="footer">
     <div class="row g-0">
@@ -44,7 +101,8 @@
         </a>
       </div>
       <div class="col">
-        <a href="https://en-gb.facebook.com/" target="_blank" rel="noopener">
+        <a href="https://en-gb.facebook.com/" target="_blank" rel="
+        ">
           <i class="fa-brands fa-instagram fa-2x"></i>
         </a>
       </div>
@@ -58,6 +116,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
   </script>
+  <script src="https://kit.fontawesome.com/133d2b6a17.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
