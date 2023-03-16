@@ -56,7 +56,12 @@ ______________
 1. Footer has small gap at the bottom and cuts off bottom content on mobile devices. Content cut off fixed by switching from fixed-bottom to sticky-bottom. 
 
 2. W3C validator showed error with nav buttons including a tags. I fixed this by removing the button tag, adding a button class and styling the button using CSS. Fixing this error affected my "more info" button in my hero image section. This was easily fixed by adding the button class previously used.
+
 3. Whitespace showing to the right of index page. I used Chrome dev tools and found that the bootstrap row class was adding unwanted gutter. I removed this by using g-0 class alongside the row class.
+
+4. Contact Form page has whitespace to the right. Using dev tools, I could see that one of my row divs was creating thing but wasn't sure which one. I added background-color: red to one and background-color: blue to another to identify. I then added margin:auto to the problem div in CSS.
+
+5. Nav buttons are showing too large on medium screens (768px) on the Index Page and Contact Page.
 ### Unfixed Bugs
 -------------------------------------
 ## **Deployment**
