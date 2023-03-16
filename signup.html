@@ -34,63 +34,76 @@
     </div>
   </nav>
   <!--Contact Information-->
-  <div class="contact">
-    <div class="container">
-      <h2 class="about-titles">Contact Us</h2>
+  <div class=" container contact">
+    <h2 class="about-titles">Contact Us</h2>
+    <div>
       <p>Get in touch with us or fill out our contact form and a member of our team will call you</p>
 
       <div class="address">
-        <span>Email Address:</span><span>woofing_walks@email.com</span>
-
-        <span>Phone Number:</span><span></span>01443 449899</span>
+        <span>Email Address:</span> <span>woofing_walks@email.com</span>
+      </div>
+      <div class="address">
+        <span>Phone Number:</span> <span></span>01443 449899</span>
       </div>
     </div>
   </div>
 
   <!--Contact Form-->
-  <div class="frame">
-    <form class="form-control-xs" method="POST" action="thankyou.html">
-      <div class="mb-3">
-        <label for="f-name" class="form-label">First Name:</label>
-        <input type="text" class="form-control" id="f-name" name="first-name" required>
-      </div>
-      <div class="mb-3">
-        <label for="l-name" class="form-label">Last Name:</label>
-        <input type="text" class="form-control" id="l-name" name="last-name" required>
-      </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">E-mail Address:</label>
-        <input type="email" class="form-control" id="email" name="email" required>
-      </div>
-      <div class="mb-3">
-        <label for="phone" class="form-label">Telephone Number:</label>
-        <input type="tel" class="form-control" id="phone" name="phone-number" required>
-      </div>
-      <div class="mb-3">
-        <label for="dog-name" class="form-label">Dog's Name:</label>
-        <input type="text" class="form-control" id="dog-name" name="dogs-name" required>
-      </div>
-      <div class="mb-3">
-        <label for="dog-breed" class="form-label">Dog's Breed:</label>
-        <input type="text" class="form-control" id="dog-breed" name="dogs-breed" required>
-      </div>
 
-      <div class="mb-4">
-        <label for="service" class="form-label">Choose a Service:</label>
-        <select for="service" class="form-select" name="service" id="service" required>
-          <option value="dog-walk" selected>Dog Walk</option>
-          <option value="day-care">Doggy Day Care</option>
-        </select>
+  <div class="row justify-content-center blue">
+    <div class="col-md-11 col-12">
+      <div class="frame pt-3">
+        <div class="row justify-content-center red">
+          <div class="col-md-9 col-10 text-start">
+            <form class="" method="POST" action="thankyou.html">
+
+              <label for="f-name" class="form-label">First Name:</label>
+              <input type="text" class="form-control" id="f-name" name="first-name" required>
+
+
+              <label for="l-name" class="form-label">Last Name:</label>
+              <input type="text" class="form-control" id="l-name" name="last-name" required>
+
+
+              <label for="email" class="form-label">E-mail Address:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+
+              <label for="phone" class="form-label">Phone Number:</label>
+              <input type="tel" class="form-control" id="phone" name="phone-number" required>
+
+
+              <div class="mb-3">
+                <label for="dog-name" class="form-label">Dog's Name:</label>
+                <input type="text" class="form-control" id="dog-name" name="dogs-name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="dog-breed" class="form-label">Dog's Breed:</label>
+                <input type="text" class="form-control" id="dog-breed" name="dogs-breed" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="service" class="form-label">Choose a Service:</label>
+                <select for="service" class="form-select-sm w-100" name="service" id="service" required>
+                  <option value="dog-walk" selected>Dog Walk</option>
+                  <option value="day-care">Doggy Day Care</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <div class="form-floating">
+                  <textarea id="additional-info" class="form-control height" required></textarea>
+                  <label for="additional-info" class="blue-text">Additional info...</label>
+                </div>
+              </div>
+
+
+              <button type="submit" class="button text-center" id="green">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
-
-      <div class="form-floating">
-        <textarea id="additional-info" class="form-control" required></textarea>
-        <label for="additional-info" class="blue-text">Additional info...</label>
-      </div>
-
-      <button type="submit" class="button" id="green">Submit</button>
-
-    </form>
+    </div>
   </div>
   <!--Footer-->
   <footer class="sticky-bottom" id="footer">
@@ -101,8 +114,7 @@
         </a>
       </div>
       <div class="col">
-        <a href="https://en-gb.facebook.com/" target="_blank" rel="
-        ">
+        <a href="https://en-gb.facebook.com/" target="_blank" rel="noopener">
           <i class="fa-brands fa-instagram fa-2x"></i>
         </a>
       </div>

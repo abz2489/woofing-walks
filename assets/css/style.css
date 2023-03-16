@@ -140,10 +140,18 @@ i.round {
 /*Contact Page (CP)*/
 /*CP Contact Us Section*/
 /*CP Form Section*/
+label {
+    font-size: 1.2rem;
+}
+
+.form-control.height {
+    height: 10rem;
+}
 #green {
     background-color: #4c956c;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 
+    width: 50%;
     padding: 0.75rem;
 }
 
@@ -151,6 +159,13 @@ i.round {
     color: black;
     font-size: 1.2rem;
 }
+
+.row.blue {
+    margin: auto;
+}
+
+
+
 /* Media Queries */
 @media (min-width: 576px) {
     .navbar-brand {
