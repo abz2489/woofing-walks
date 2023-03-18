@@ -31,11 +31,12 @@ p {
 
     transition: transform 350ms;
 }
-
+/*Overrides bootstrap hover effect with my own transoform effect*/
 .navbar-brand:hover {
     color:#f5f5f5;
     transform: translateY(-10px);
 }
+
 .button {
     background-color:#33658a;
     color: #f5f5f5;
@@ -51,6 +52,7 @@ p {
 
 .navbar-toggler {
     font-size: 1.75rem;
+
     margin-right: 1.5rem;
 }
 
@@ -208,7 +210,6 @@ label {
     }
 
     a.nav-link {
-        font-size: 20px;
         padding: 10px;
     }
     
