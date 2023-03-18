@@ -61,7 +61,7 @@ ______________
 
 4. Contact Form page has whitespace to the right. Using dev tools, I could see that one of my row divs was creating thing but wasn't sure which one. I added background-color: red to one and background-color: blue to another to identify. I then added margin:auto to the problem div in CSS.
 
-5. Nav buttons are showing too large on medium screens (768px) on the Index Page and Contact Page.
+5. Nav buttons are showing too large on medium screens (768px) on the Index Page and Contact Page. Bug fixed by removing larger font size in the 768px media query.
 ### Unfixed Bugs
 -------------------------------------
 ## **Deployment**
@@ -78,6 +78,8 @@ Woofing Walks' live website was deployed using GitHub Pages.
 
 -------------------------------------
 ## **Credits**
+
+https://www.joshwcomeau.com/animation/css-transitions/ - His article helped me with my transitions.
 ### Content
 ### Media
 
