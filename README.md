@@ -37,6 +37,8 @@ Google Fonts was used for all fonts on the website
 ## **Features**
 
 ### **Existing Features**
+
+#### **Home Page**
 - **F01 Navigation Bar:** The nav bar looks the save across all pages. The nav brand is a simple font and when clicked will take users back to the index page from all pages. The nav includes three links; Home, About and Contact. All three have been styled to stand out as buttons. All links are functioning and when clicked will take the user to the correct pages.
 
 ![Navigation Bae](docs/feature-images/f01-nav-bar.webp)
@@ -52,7 +54,10 @@ Google Fonts was used for all fonts on the website
 
 ![Navigation Bar](docs/feature-images/f04-footer.webp)
 
-- **F05 Our Story:** 
+#### **About Page**
+- **F05 Our Story Section:** Our Story sections introduces Woofing Walks' owner, Sarah and summarises the background of the company. It includes a picture of a dog on a walk at the bottom.
+
+![Navigation Bar](docs/feature-images/f05-our-story-section.webp)
 
 ### **Future Features**
 
