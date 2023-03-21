@@ -223,18 +223,39 @@ label {
         background-size: cover;
     }*/
 }
+
 @media (min-width: 992px) {
     .hero-outer {
         position: relative;
     }
 
+    .hero-img.img-fluid {
+        height: 53vh;
+    }
+
     .cta-container {
         position: absolute;
-        bottom: 49.5%;
+        bottom: 34.5%;
         background-color: rgba(76, 149, 108, 0.8)
     }
     .services-container {
         margin: 1rem 3rem;
         align-items: center;
 }
+}
+
+@media (min-width: 1200px) {
+    .hero-outer {
+        position: relative;
+    }
+
+    .hero-img.img-fluid {
+        height: 63vh;
+    }
+
+    .cta-container {
+        position: absolute;
+        bottom: 24.3%;
+        background-color: rgba(76, 149, 108, 0.8)
+    }  
 }
