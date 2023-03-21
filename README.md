@@ -63,7 +63,9 @@ Google Fonts was used for all fonts on the website
 
 ![Our Mission Section](docs/feature-images/f06-our-story-section.webp)
 
-- **F07 How it Works:** 
+- **F07 How it Works Section:** How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking
+
+![How to works section](docs/feature-images/f07-how-it-works-section.webp)
 
 ### **Future Features**
 1. In the future, I plan to add a gallery page.
