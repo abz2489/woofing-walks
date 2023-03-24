@@ -92,6 +92,7 @@ i {
 
 .cta-container {
     width: 100%;
+    position: fixed;
     background-color: #4c956c;
 }
 
@@ -244,7 +245,7 @@ label {
 
     .cta-container {
         position: absolute;
-        bottom: 34.5%;
+        bottom: 0;
         background-color: rgba(76, 149, 108, 0.8)
     }
     .services-container {
@@ -264,7 +265,7 @@ label {
 
     .cta-container {
         position: absolute;
-        bottom: 24.3%;
+        bottom: 0;
         background-color: rgba(76, 149, 108, 0.8)
     }  
 }
