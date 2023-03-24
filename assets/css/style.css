@@ -1,4 +1,13 @@
 /*Global Styles*/
+html, body {    
+    height: 100%;
+}
+
+body > footer {    
+    position: sticky;    
+    top: 100vh;
+}
+
 body {
     font-family: "Heebo", sans-serif;
     text-align: center;
@@ -69,6 +78,7 @@ a {
 i {
     padding: 1rem;
  }
+
 /* Home Page (HP) */
 /*HP Hero Image */
 .hero-img.img-fluid {
