@@ -188,7 +188,13 @@ label {
     margin: auto;
 }
 
-
+button#green-btn.button  {
+    background-color: #4c956c;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display:flex;
+    margin: auto;
+}
 
 /* Media Queries */
 @media (min-width: 576px) {
