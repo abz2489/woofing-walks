@@ -1,4 +1,6 @@
 # <p style="text-align: center; font-size: 40px;">**Woofing Walks**</p>
+
+![](docs/supp-images/am-i-responsive.webp)
 [View the Woofing Walks live website here](https://abz2489.github.io/woofing-walks/)
 
 Woofing Walks is a dog walking service based in the Rhondda Valleys. The aim of the website is to promote Woofing Walks' services and attract new customers to the business. Woofing Walks is aimed at dog owners looking for trusted dog walkers in their local area. 
@@ -41,31 +43,31 @@ Google Fonts was used for all fonts on the website
 #### **Home Page**
 - **F01 Navigation Bar:** The nav bar looks the save across all pages. The nav brand is a simple font and when clicked will take users back to the index page from all pages. The nav includes three links; Home, About and Contact. All three have been styled to stand out as buttons. All links are functioning and when clicked will take the user to the correct pages.
 
-![Navigation Bar](docs/feature-images/f01-nav-bar.webp)
+![Navigation Bar](docs/supp-images/f01-nav-bar.webp)
 
 - **F02 Hero Image & Call to Action:** The Hero Image fills the width of the page across all devices and includes a banner below with a call to action button "more info". When pressed the button takes the user to the about page where they can learn more about Woofing Walks' services.
 
 
 - **F03 Services Summary Section:** The services summary section gives a brief summary of what services Woofing Walks offer. The last block includes a future service pending with a "Coming Soon" caption to pique interest in the Dog Training School and encourage return visitors.
 
-![Services Summary Section](docs/feature-images/f03-services-summary.webp)
+![Services Summary Section](docs/supp-images/f03-services-summary.webp)
 
 - **F04 Footer:** The footer is uniform across all three pages. The footer includes three social media links consisting of logos. All links open a new tab and take the user to the relevant social media page.
 
-![Footer](docs/feature-images/f04-footer.webp)
+![Footer](docs/supp-images/f04-footer.webp)
 
 #### **About Page**
 - **F05 Our Story Section:** Our Story section introduces Woofing Walks' owner, Sarah and summarises the background of the company. It includes a picture of a dog on a walk at the bottom.
 
-![Our Story Section](docs/feature-images/f05-our-story-section.webp)
+![Our Story Section](docs/supp-images/f05-our-story-section.webp)
 
 - **F06 Our Mission:** Our Mission section is a small section including the mission statemnt and horizantal rule before the next section.
 
-![Our Mission Section](docs/feature-images/f06-our-story-section.webp)
+![Our Mission Section](docs/supp-images/f06-our-story-section.webp)
 
 - **F07 How it Works Section:** How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking
 
-![How to works section](docs/feature-images/f07-how-it-works-section.webp)
+![How to works section](docs/supp-images/f07-how-it-works-section.webp)
 
 ### **Future Features**
 1. In the future, I plan to add a gallery page.
