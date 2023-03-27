@@ -66,9 +66,17 @@ Google Fonts was used for all fonts on the website
 
 ![Our Mission Section](docs/supp-images/f06-our-story-section.webp)
 
-- **F07 How it Works Section:** How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking
+- **F07 How it Works Section:** How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking.
 
 ![How to works section](docs/supp-images/f07-how-it-works-section.webp)
+
+- **F08 Contact Information Section:** The contact information is placed at the top of the page so it's the first thing the user sees when contact page loads.
+
+![Contact Information Section](docs/supp-images/f08-contact-information.webp)
+
+- **F09 Contact Form Section:** The contact form collects the dog owner's information and basic information for the dog. There's an additional info box for the user to add anything specific that Woofing Walks might need to know.
+
+![Contact Form Section](docs/supp-images/f09-contact-form.webp)
 
 ### **Future Features**
 1. In the future, I plan to add a gallery page.
@@ -134,7 +142,7 @@ Woofing Walks' live website was deployed using GitHub Pages.
 -------------------------------------
 ## **Credits**
 
-https://www.joshwcomeau.com/animation/css-transitions/ - His article helped me with my transitions.
+https://www.joshwcomeau.com/animation/css-transitions/ - This article helped me with my nav brand transition.
 ### Content
 ### Media
 
