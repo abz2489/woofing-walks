@@ -25,6 +25,7 @@ ______________
 
 ## **Design**
 ### **Colour Scheme**
+![](docs/supp-images/color-palette.webp)
 ### **Typography**
 
 Google Fonts was used for all fonts on the website
@@ -33,7 +34,7 @@ Google Fonts was used for all fonts on the website
 - Heebo is used for larger bodies of text to ensure ease of reading for the user. It's a sans-serif font.
 
 
-### Wireframes
+### **Wireframes**
 
 -------------------------------------
 ## **Features**
@@ -102,14 +103,17 @@ Google Fonts was used for all fonts on the website
 3. Whitespace showing to the right of index page. I used Chrome dev tools and found that the bootstrap row class was adding unwanted gutter. I removed this by using g-0 class alongside the row class.
 
 4. Contact Form page has whitespace to the right. Using dev tools, I could see that one of my row divs was causing the issue, but wasn't sure which one. I added background-color: red to one div and background-color: blue to another to identify. I then added margin:auto to the problem div in CSS.
+![](docs/supp-images/contact-bug-4.webp)
 
 5. Nav buttons are showing too large on medium screens (768px) on the Index Page and Contact Page. Bug fixed by removing larger font size in the 768px media query.
 
 6. Image in the Our Story section distorted. Changed the original image to square, using windows. Coverted the image to Webp and replaced existing image to fix the bug.
 
 7. Overlay is floating upwards when changing screen sizes for larger screens. Issue was fixed by adding bottom:0 to cta-container, it now sits flush to the bottom of the hero image.
+![](docs/supp-images/overlay-bug-7.webp)
 
 8. Fixing the overlay bug caused the container to be in a fixed position on mobile and tablet devices. Dev tools was used to find the declaration causing the issue, position:fixed. By removing this the bug is fixed and the container sits directly beneath the hero image as intended.
+![](docs/supp-images/container-bug-8.webp)
 
 9. More info button wasn't opening the about page when clicked. Bug fixed by changing the button tag to a tag.
 ### Unfixed Bugs
