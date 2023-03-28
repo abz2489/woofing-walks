@@ -101,7 +101,18 @@ Google Fonts was used for all fonts on the website
 -------------------------------------
 ## **Testing**
 ### **W3C Validator Testing**
-[Index Page HTML](https://github.com/abz2489/woofing-walks/blob/main/docs/readme/testing/w3c/w3cindex.png)
+#### **Index Page** 
+- The first HTML validation test flagged a services ID used multiple times. This was removed to fix the errors.
+- 
+
+#### **About Page**
+- The first HTML validation test flagged bottom scripts sitting outside the closing body tag. The scripts were cut and pasted inside the body tags at the very bottom to fix the error.
+- 
+
+#### **Contact Page**
+- The first HTML validation test flagged three errors. There was a stray closing script tag, removed to fix. A for attribute was used on a select element, removed to fix. Missing multiple attribute from the drop down to select a service (line 87), added the multiple attribute to fix the error.
+- 
+
 ### **User Story Testing**
 ### Solved Bugs
 1. Footer cuts off bottom content on mobile devices in chrome browser. Content cut off fixed by switching from fixed-bottom to sticky-bottom. 
