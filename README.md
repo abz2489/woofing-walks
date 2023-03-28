@@ -100,18 +100,31 @@ Google Fonts was used for all fonts on the website
 
 -------------------------------------
 ## **Testing**
+
 ### **W3C Validator Testing**
 #### **Index Page** 
 - The first HTML validation test flagged a services ID used multiple times. This was removed to fix the errors.
-- 
+![Index HTML Validation Errors](docs/testing/w3c/index-html-errors.webp)
+- The second HTML validation showed no errors.
+![Index HTML Validation Pass](docs/testing/w3c/index-html-pass.webp)
 
 #### **About Page**
 - The first HTML validation test flagged bottom scripts sitting outside the closing body tag. The scripts were cut and pasted inside the body tags at the very bottom to fix the error.
-- 
+![About HTML Validation Errors](docs/testing/w3c/about-html-error.webp)
+- The second HTML validation showed no errors.
+![About HTML Validation Pass](docs/testing/w3c/about-html-pass.webp)
 
 #### **Contact Page**
 - The first HTML validation test flagged three errors. There was a stray closing script tag, removed to fix. A for attribute was used on a select element, removed to fix. Missing multiple attribute from the drop down to select a service (line 87), added the multiple attribute to fix the error.
-- 
+![Contact HTML Validation Errors](docs/testing/w3c/contact-html-errors.webp)
+- The second HTML validation showed no errors.
+![Contact HTML Validation Pass](docs/testing/w3c/contact-html-pass.webp)
+
+#### **CSS**
+- The CSS validator showed no errors.
+![CSS Validation Result](docs/testing/w3c/css-pass.webp)
+
+### **Lighthouse Testing**
 
 ### **User Story Testing**
 ### Solved Bugs
