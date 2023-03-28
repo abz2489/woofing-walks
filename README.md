@@ -125,6 +125,18 @@ Google Fonts was used for all fonts on the website
 ![CSS Validation Result](docs/testing/w3c/css-pass.webp)
 
 ### **Lighthouse Testing**
+#### **Index Page Mobile Testing:**
+![Index Page Mobile Initial Test](docs/testing/Lighthouse/index-lighthouse-mobile-first-test.webp)
+- **SEO:** Score increased to 100 by adding meta description tags to the head and changing link text on the cta button to About Us.
+- **Accessibility:** Score inscreased to 100 by adding aria-label to all a tags.
+- **Performance:** 
+#### **Index Page Desktop Testing:**
+
+#### **About Page Mobile Testing:**
+#### **About Page Desktop Testing:**
+
+#### **Contact Page Mobile Testing:**
+#### **Contact Page Desktop Testing:**
 
 ### **User Story Testing**
 ### Solved Bugs
