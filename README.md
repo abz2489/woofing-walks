@@ -157,7 +157,9 @@ Google Fonts was used for all fonts on the website
 8. Fixing the overlay bug caused the container to be in a fixed position on mobile and tablet devices. Dev tools was used to find the declaration causing the issue, position:fixed. By removing this the bug is fixed and the container sits directly beneath the hero image as intended.
 ![](docs/supp-images/container-bug-8.webp)
 
-9. More info button wasn't opening the about page when clicked. Bug fixed by changing the button tag to a tag.
+9. More info button wasn't opening the about page when clicked. Bug fixed by changing the button tag to <a></a> tag.
+
+10. Contact form showed 405 error page when submitted. Bug fixed by removing method="POST" attribute from form tag.
 ## Unfixed Bugs
 
 
