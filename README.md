@@ -6,27 +6,27 @@
 Woofing Walks is a dog walking service based in the Rhondda Valleys. The aim of the website is to promote Woofing Walks' services and attract new customers to the business. Woofing Walks is aimed at dog owners looking for trusted dog walkers in their local area. 
 The website provides information of what new customers can expect from their services. It also includes walk times, prices & contact information.
 
-______________
-## **User Experience (UX)**
-### **User Stories**
 
-#### **First Time Visitor Goals**
+# **User Experience (UX)**
+## **User Stories**
+
+### **First Time Visitor Goals**
 - I need to quickly identify what Woofing Walks is.
 - I need to easily navigate the Woofing Walks website so I can find information on Woofing Walks' services.
 - I need to find pricing information of Woofing Walks' services.
 
-#### **Returning Visitor Goals**
+### **Returning Visitor Goals**
 - I need to easily find contact information so I can book a walk or ask more questions.
 - I need to easily access Woofing Walks' social media so I can follow.
 
-#### **Frequent Visitor Goals**
+### **Frequent Visitor Goals**
 - I need to find information on new services Woofing Walks offer.
 
 
-## **Design**
-### **Colour Scheme**
+# **Design**
+## **Colour Scheme**
 ![](docs/supp-images/color-palette.webp)
-### **Typography**
+## **Typography**
 
 Google Fonts was used for all fonts on the website
 - Kalam is used for the nav brand only, it's a handwriting font with a personal feel.
@@ -34,14 +34,13 @@ Google Fonts was used for all fonts on the website
 - Heebo is used for larger bodies of text to ensure ease of reading for the user. It's a sans-serif font.
 
 
-### **Wireframes**
+## **Wireframes**
 
--------------------------------------
-## **Features**
+# **Features**
 
-### **Existing Features**
+## **Existing Features**
 
-#### **Home Page**
+### **Home Page**
 - **F01 Navigation Bar:** The nav bar looks the save across all pages. The nav brand is a simple font and when clicked will take users back to the index page from all pages. The nav includes three links; Home, About and Contact. All three have been styled to stand out as buttons. All links are functioning and when clicked will take the user to the correct pages.
 
 ![Navigation Bar](docs/supp-images/f01-nav-bar.webp)
@@ -57,7 +56,7 @@ Google Fonts was used for all fonts on the website
 
 ![Footer](docs/supp-images/f04-footer.webp)
 
-#### **About Page**
+### **About Page**
 - **F05 Our Story Section:** Our Story section introduces Woofing Walks' owner, Sarah and summarises the background of the company. It includes a picture of a dog on a walk at the bottom.
 
 ![Our Story Section](docs/supp-images/f05-our-story-section.webp)
@@ -70,6 +69,7 @@ Google Fonts was used for all fonts on the website
 
 ![How to works section](docs/supp-images/f07-how-it-works-section.webp)
 
+### **Contact Page**
 - **F08 Contact Information Section:** The contact information is placed at the top of the page so it's the first thing the user sees when contact page loads.
 
 ![Contact Information Section](docs/supp-images/f08-contact-information.webp)
@@ -83,14 +83,13 @@ Google Fonts was used for all fonts on the website
 2. In the future, I intend to introduce a FAQ section.
 
 
--------------------------------------
-## Technologies Used
+# Technologies Used
 
-### Languages Used
+## Languages Used
 - HTML5
 - CSS3
 
-### Frameworks, Libraries & Programs used
+## Frameworks, Libraries & Programs used
 - Balsamiq
 - Git
 - GitHub
@@ -98,47 +97,46 @@ Google Fonts was used for all fonts on the website
 - Font Awesome
 - Google Fonts
 
--------------------------------------
-## **Testing**
+# **Testing**
 
-### **W3C Validator Testing**
-#### **Index Page** 
+## **W3C Validator Testing**
+### **Index Page** 
 - The first HTML validation test flagged a services ID used multiple times. This was removed to fix the errors.
 ![Index HTML Validation Errors](docs/testing/w3c/index-html-errors.webp)
 - The second HTML validation showed no errors.
 ![Index HTML Validation Pass](docs/testing/w3c/index-html-pass.webp)
 
-#### **About Page**
+### **About Page**
 - The first HTML validation test flagged bottom scripts sitting outside the closing body tag. The scripts were cut and pasted inside the body tags at the very bottom to fix the error.
 ![About HTML Validation Errors](docs/testing/w3c/about-html-error.webp)
 - The second HTML validation showed no errors.
 ![About HTML Validation Pass](docs/testing/w3c/about-html-pass.webp)
 
-#### **Contact Page**
+### **Contact Page**
 - The first HTML validation test flagged three errors. There was a stray closing script tag, removed to fix. A for attribute was used on a select element, removed to fix. Missing multiple attribute from the drop down to select a service (line 87), added the multiple attribute to fix the error.
 ![Contact HTML Validation Errors](docs/testing/w3c/contact-html-errors.webp)
 - The second HTML validation showed no errors.
 ![Contact HTML Validation Pass](docs/testing/w3c/contact-html-pass.webp)
 
-#### **CSS**
+### **CSS**
 - The CSS validator showed no errors.
 ![CSS Validation Result](docs/testing/w3c/css-pass.webp)
 
-### **Lighthouse Testing**
-#### **Index Page Mobile Testing:**
+## **Lighthouse Testing**
+### **Index Page Mobile Testing:**
 ![Index Page Mobile Initial Test](docs/testing/Lighthouse/index-lighthouse-mobile-first-test.webp)
 - **SEO:** Score increased to 100 by adding meta description tags to the head and changing link text on the cta button to About Us.
 - **Accessibility:** Score inscreased to 100 by adding aria-label to all a tags.
 - **Performance:** 
-#### **Index Page Desktop Testing:**
+### **Index Page Desktop Testing:**
 
-#### **About Page Mobile Testing:**
-#### **About Page Desktop Testing:**
+### **About Page Mobile Testing:**
+### **About Page Desktop Testing:**
 
-#### **Contact Page Mobile Testing:**
-#### **Contact Page Desktop Testing:**
+### **Contact Page Mobile Testing:**
+### **Contact Page Desktop Testing:**
 
-### **User Story Testing**
+## **User Story Testing**
 ### Solved Bugs
 1. Footer cuts off bottom content on mobile devices in chrome browser. Content cut off fixed by switching from fixed-bottom to sticky-bottom. 
 
@@ -160,14 +158,29 @@ Google Fonts was used for all fonts on the website
 ![](docs/supp-images/container-bug-8.webp)
 
 9. More info button wasn't opening the about page when clicked. Bug fixed by changing the button tag to a tag.
-### Unfixed Bugs
+## Unfixed Bugs
 
--------------------------------------
-## **Deployment**
 
+# **Deployment**
 Woofing Walks' live website was deployed using GitHub Pages.
 
-**Deployment Instructions:**
+## **Local Deployment**
+
+### **How to Fork**
+1. Go to GitHub repository.
+2. In the top right of the screen, click the fork button.
+3. A form will appear, you can edit the name and description or keep it the same.
+4. Click the green Create Fork button.
+
+### **How to Clone**
+1. In the GitHub respository click the green Code button, that sits above the repository files.
+2. When the dropdown appears choose from HTTP, SSH or GitHub CLI.
+3. Click the copy button to the right of the URL to copy to your clipboard.
+4. Open Git Bash / terminal, choose where you want to clone the files.
+5. Type git clone and the following into the terminal https://github.com/abz2489/woofing-walks.git
+6. Press enter to create the clone.
+
+**Remote Deployment**
 1. Sign in to [GitHub](https://github.com/login) or [Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) for an account.
 2. Find the [woofing-walks](https://github.com/abz2489/woofing-walks) repository.
 3. Click settings.
@@ -176,14 +189,14 @@ Woofing Walks' live website was deployed using GitHub Pages.
 6. Click Save, the live website is now deployed.
 
 -------------------------------------
-## **Credits**
+# **Credits**
 
 https://www.joshwcomeau.com/animation/css-transitions/ - This article helped me with my nav brand transition.
-### Content
-### Media
+## Content
+## Media
 
 All images for Woofing Walks were sourced from [Pexels](https://www.pexels.com).
-#### Index Page
+### Index Page
 -[Hero Image](https://www.pexels.com/photo/two-adult-harrier-dogs-standing-beside-river-1144410/)
 
 -[About Page, Our Story section](https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/)
