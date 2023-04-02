@@ -27,12 +27,10 @@ The website provides information of what new customers can expect from their ser
 ## **Colour Scheme**
 ![](docs/supp-images/color-palette.webp)
 ## **Typography**
-
 Google Fonts was used for all fonts on the website
 - Kalam is used for the nav brand only, it's a handwriting font with a personal feel.
 - Wellfleet is used as a stand out for all headings and buttons on the website. Wellfleet is a slab-serif font.
 - Heebo is used for larger bodies of text to ensure ease of reading for the user. It's a sans-serif font.
-
 
 ## **Wireframes**
 
@@ -63,7 +61,7 @@ Google Fonts was used for all fonts on the website
 
 - **F06 Our Mission:** Our Mission section is a small section including the mission statemnt and horizantal rule before the next section.
 
-![Our Mission Section](docs/supp-images/f06-our-story-section.webp)
+![Our Mission Section](docs/supp-images/f06-mission-section.webp)
 
 - **F07 How it Works Section:** How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking.
 
@@ -182,7 +180,7 @@ Woofing Walks' live website was deployed using GitHub Pages.
 5. Type git clone and the following into the terminal https://github.com/abz2489/woofing-walks.git
 6. Press enter to create the clone.
 
-**Remote Deployment**
+## **Remote Deployment**
 1. Sign in to [GitHub](https://github.com/login) or [Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) for an account.
 2. Find the [woofing-walks](https://github.com/abz2489/woofing-walks) repository.
 3. Click settings.
@@ -205,6 +203,7 @@ All images for Woofing Walks were sourced from [Pexels](https://www.pexels.com).
 
 https://www.pexels.com/photo/two-adult-black-and-tan-german-shepherds-running-on-ground-1633522/
 https://www.pexels.com/photo/a-dog-biting-a-branch-12729351/
+https://www.pexels.com/photo/adorable-puppy-with-opened-mouth-4731108/
 
 -------------------------------------
 
