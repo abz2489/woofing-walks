@@ -77,42 +77,62 @@ The contact details were moved to the top of the page to ensure that they're fou
 ## **Existing Features**
 
 ### **Home Page**
-- **F01 Navigation Bar:** The nav bar looks the save across all pages. The nav brand is a simple font and when clicked will take users back to the index page from all pages. The nav includes three links; Home, About and Contact. All three have been styled to stand out as buttons. All links are functioning and when clicked will take the user to the correct pages.
+<details><summary>F01 Navigation Bar</summary>
+The nav bar looks the save across all pages. The nav brand is a simple font and when clicked will take users back to the index page from all pages. The nav includes three links; Home, About and Contact. All three have been styled to stand out as buttons. All links are functioning and when clicked will take the user to the correct pages.
 
 ![Navigation Bar](docs/supp-images/f01-nav-bar.webp)
+</details>
 
-- **F02 Hero Image & Call to Action:** The Hero Image fills the width of the page across all devices and includes a banner below with a call to action button "more info". When pressed the button takes the user to the about page where they can learn more about Woofing Walks' services.
+<details><summary>F02 Hero Image & Call to Action</summary>
+The Hero Image fills the width of the page across all devices and includes a banner below with a call to action button "more info". When pressed the button takes the user to the about page where they can learn more about Woofing Walks' services.
 
+![Hero Image](docs/supp-images/f02-hero-image.webp)
+</details>
 
-- **F03 Services Summary Section:** The services summary section gives a brief summary of what services Woofing Walks offer. The last block includes a future service pending with a "Coming Soon" caption to pique interest in the Dog Training School and encourage return visitors.
+<details><summary>F03 Services Summary Section</summary> 
+The services summary section gives a brief summary of what services Woofing Walks offer. The last block includes a future service pending with a "Coming Soon" caption to pique interest in the Dog Training School and encourage return visitors.
 
 ![Services Summary Section](docs/supp-images/f03-services-summary.webp)
+</details>
 
-- **F04 Footer:** The footer is uniform across all three pages. The footer includes three social media links consisting of logos. All links open a new tab and take the user to the relevant social media page.
+<details><summary>F04 Footer</summary> 
+The footer is uniform across all three pages. The footer includes three social media links consisting of logos. All links open a new tab and take the user to the relevant social media page.
 
 ![Footer](docs/supp-images/f04-footer.webp)
+</details>
 
 ### **About Page**
-- **F05 Our Story Section:** Our Story section introduces Woofing Walks' owner, Sarah and summarises the background of the company. It includes a picture of a dog on a walk at the bottom.
+<details><summary>F05 Our Story Section</summary>
+ Our Story section introduces Woofing Walks' owner, Sarah and summarises the background of the company. It includes a picture of a dog on a walk at the bottom.
 
 ![Our Story Section](docs/supp-images/f05-our-story-section.webp)
+</details>
 
-- **F06 Our Mission:** Our Mission section is a small section including the mission statemnt and horizantal rule before the next section.
+<details><summary>F06 Our Mission</summary> 
+Our Mission section is a small section including the mission statemnt and horizantal rule before the next section.
 
 ![Our Mission Section](docs/supp-images/f06-mission-section.webp)
+</details>
 
-- **F07 How it Works Section:** How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking.
+<details><summary>F07 How it Works Section</summary> 
+How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking.
 
 ![How to works section](docs/supp-images/f07-how-it-works-section.webp)
+</details>
 
 ### **Contact Page**
-- **F08 Contact Information Section:** The contact information is placed at the top of the page so it's the first thing the user sees when contact page loads.
+<details><summary>F08 Contact Information Section</summary> 
+The contact information is placed at the top of the page so it's the first thing the user sees when contact page loads.
 
 ![Contact Information Section](docs/supp-images/f08-contact-information.webp)
+</details>
 
-- **F09 Contact Form Section:** The contact form collects the dog owner's information and basic information for the dog. There's an additional info box for the user to add anything specific that Woofing Walks might need to know.
+<details><summary>F09 Contact Form Section</summary> 
+The contact form collects the dog owner's information and basic information for the dog. There's an additional info box for the user to add anything specific that Woofing Walks might need to know.
 
-![Contact Form Section](docs/supp-images/f09-contact-form.webp)
+![Contact Form Section](docs/supp-images/f09-contact-form-1.webp)
+![Contact Form Section](docs/supp-images/f09-contact-form-2.webp)
+</details>
 
 ### **Future Features**
 1. In the future, I plan to add a gallery page.
@@ -137,40 +157,106 @@ The contact details were moved to the top of the page to ensure that they're fou
 
 ## **W3C Validator Testing**
 ### **Index Page** 
-- The first HTML validation test flagged a services ID used multiple times. This was removed to fix the errors.
+<details><summary>The first HTML validation test flagged a services ID used multiple times. This was removed to fix the errors.</summary>
+
+
 ![Index HTML Validation Errors](docs/testing/w3c/index-html-errors.webp)
-- The second HTML validation showed no errors.
+</details>
+
+<details><summary>The second HTML validation showed no errors.</summary>
+
 ![Index HTML Validation Pass](docs/testing/w3c/index-html-pass.webp)
+</details>
 
 ### **About Page**
-- The first HTML validation test flagged bottom scripts sitting outside the closing body tag. The scripts were cut and pasted inside the body tags at the very bottom to fix the error.
+<details><summary>The first HTML validation test flagged bottom scripts sitting outside the closing body tag. The scripts were cut and pasted inside the body tags at the very bottom to fix the error.</summary>
+
 ![About HTML Validation Errors](docs/testing/w3c/about-html-error.webp)
-- The second HTML validation showed no errors.
+</details>
+
+<details><summary>The second HTML validation showed no errors.</summary>
+
 ![About HTML Validation Pass](docs/testing/w3c/about-html-pass.webp)
+</details>
 
 ### **Contact Page**
-- The first HTML validation test flagged three errors. There was a stray closing script tag, removed to fix. A for attribute was used on a select element, removed to fix. Missing multiple attribute from the drop down to select a service (line 87), added the multiple attribute to fix the error.
+<details><summary>The first HTML validation test flagged three errors. There was a stray closing script tag, removed to fix. A for attribute was used on a select element, removed to fix. Missing multiple attribute from the drop down to select a service (line 87), added the multiple attribute to fix the error.</summary>
+
 ![Contact HTML Validation Errors](docs/testing/w3c/contact-html-errors.webp)
-- The second HTML validation showed no errors.
+</details>
+
+<details><summary>The second HTML validation showed no errors.</summary>
+
 ![Contact HTML Validation Pass](docs/testing/w3c/contact-html-pass.webp)
+</details>
 
 ### **CSS**
-- The CSS validator showed no errors.
+<details><summary>The CSS validator showed no errors.</summary>
+
 ![CSS Validation Result](docs/testing/w3c/css-pass.webp)
+</details>
 
 ## **Lighthouse Testing**
-### **Index Page Mobile Testing:**
+### **Index Page Mobile Testing**
+<details><summary>Click here</summary>
+
+First Test:
 ![Index Page Mobile Initial Test](docs/testing/Lighthouse/index-lighthouse-mobile-first-test.webp)
+
+Final Test:
+![Index Page Mobile Initial Test](docs/supp-images/index-lighthouse-mobile-final-test.webp)
+
+</details>
+
 - **SEO:** Score increased to 100 by adding meta description tags to the head and changing link text on the cta button to About Us.
 - **Accessibility:** Score inscreased to 100 by adding aria-label to all a tags.
-- **Performance:** 
+- **Performance:** Performance was increased to 72 in incognito mode.
+
 ### **Index Page Desktop Testing:**
+<details><summary>Click here</summary>
+
+First Test:
+
+![Index Page Mobile Initial Test](docs/supp-images/index-lighthouse-desktop-first-test.webp)
+
+</details>
+
 
 ### **About Page Mobile Testing:**
+<details><summary>Click here</summary>
+
+First Test:
+
+![Index Page Mobile Initial Test](docs/supp-images/about-lighthouse-mobile-first-test.webp)
+
+</details>
+
 ### **About Page Desktop Testing:**
+<details><summary>Click here</summary>
+
+First Test:
+
+![Index Page Mobile Initial Test](docs/supp-images/about-lighthouse-desktop-first-test.webp)
+
+</details>
 
 ### **Contact Page Mobile Testing:**
+<details><summary>Click here</summary>
+
+First Test:
+
+![Index Page Mobile Initial Test](docs/supp-images/index-lighthouse-desktop-first-test.webp)
+
+</details>
+
 ### **Contact Page Desktop Testing:**
+<details><summary>Click here</summary>
+
+First Test:
+
+![Index Page Mobile Initial Test](docs/supp-images/index-lighthouse-desktop-first-test.webp)
+
+</details>
 
 ## **User Story Testing**
 ### Solved Bugs
@@ -181,7 +267,8 @@ The contact details were moved to the top of the page to ensure that they're fou
 3. Whitespace showing to the right of index page. I used Chrome dev tools and found that the bootstrap row class was adding unwanted gutter. I removed this by using g-0 class alongside the row class.
 
 4. Contact Form page has whitespace to the right. Using dev tools, I could see that one of my row divs was causing the issue, but wasn't sure which one. I added background-color: red to one div and background-color: blue to another to identify. I then added margin:auto to the problem div in CSS.
-![](docs/supp-images/contact-bug-4.webp)
+![contact-bug-4](docs/supp-images/contact-bug-4.webp)
+
 
 5. Nav buttons are showing too large on medium screens (768px) on the Index Page and Contact Page. Bug fixed by removing larger font size in the 768px media query.
 
@@ -226,7 +313,6 @@ Woofing Walks' live website was deployed using GitHub Pages.
 5. In the Build and Deployment section select the main branch and root folder.
 6. Click Save, the live website is now deployed.
 
--------------------------------------
 # **Credits**
 
 https://www.joshwcomeau.com/animation/css-transitions/ - This article helped me with my nav brand transition.
