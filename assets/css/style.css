@@ -138,14 +138,19 @@ div.services-container {
     padding-top: 2rem;
 }
 
-img.img-round-edge {
+.story-mission {
+    padding: 1rem;
+}
+
+img.story-img {
     border-radius: 0.94rem;
     margin-top: 1rem;
 }
 
 /*AP Our Mission Section*/
-.mission {
-    margin-bottom: 2rem;
+
+.mission-img {
+    border-radius: 50%;
 }
 
 hr {
@@ -253,6 +258,9 @@ button#green-btn.button  {
     .services-container {
         margin: 1rem 3rem;
         align-items: center;
+}
+    .story-mission {
+        padding: 2rem 10rem;
 }
 }
 
