@@ -170,6 +170,11 @@ i.round {
 /*Contact Page (CP)*/
 /*CP Contact Us Section*/
 /*CP Form Section*/
+.row.justify-content-center.form-section {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 label {
     font-size: 1.2rem;
 }
@@ -202,6 +207,11 @@ button#green-btn.button  {
     margin: auto;
 }
 
+.services-container.contact-form {
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+}
+
 /* Media Queries */
 @media (min-width: 576px) {
     .navbar-brand {
@@ -225,9 +235,6 @@ button#green-btn.button  {
     div h2 {
         font-size: 1.57rem;
     }
-    /*.button.more-info {
-        font-size: 2rem;
-    }*/
 }
 
 @media (min-width: 768px) {
