@@ -33,6 +33,44 @@ Google Fonts was used for all fonts on the website
 - Heebo is used for larger bodies of text to ensure ease of reading for the user. It's a sans-serif font.
 
 ## **Wireframes**
+### **Home Page**
+<details><summary>Mobile</summary>
+
+![Mobile](docs/supp-images/wf-index-mobile.webp)
+</details>
+
+<details><summary>Desktop</summary>
+
+![Desktop](docs/supp-images/wf-index.webp)
+</details>
+
+The Homepage design stayed the same, with the addition of a page title that displays underneath the hero image on mobile devices and as an overlay on larger screens. The title tells the user instantly what the website is and where the services are offered.
+
+### **About Page**
+<details><summary>Mobile</summary>
+
+![Mobile](docs/supp-images/wf-about-mobile.webp)
+</details>
+
+<details><summary>Desktop</summary>
+
+![Desktop](docs/supp-images/wf-about.webp)
+</details>
+
+The "Why choose us?" section was changed to "Our Mission". I didn't want two lists at the bottom of the about page. The "How it works" sections made more sense as it explains the next steps clearly to potential new customers.
+
+### **Contact Page**
+<details><summary>Mobile</summary>
+
+![Mobile](docs/supp-images/wf-signup-mobile.webp)
+</details>
+
+<details><summary>Desktop</summary>
+
+![Desktop](docs/supp-images/wf-signup.webp)
+</details>
+
+The contact details were moved to the top of the page to ensure that they're found easily. The option to sign up for a newsletter didn't quite coincide with the need to attract new business. Having a simple online form to capture basic details of the customer and their dog is a much more effective way to onboard new customers.
 
 # **Features**
 
@@ -204,6 +242,7 @@ All images for Woofing Walks were sourced from [Pexels](https://www.pexels.com).
 https://www.pexels.com/photo/two-adult-black-and-tan-german-shepherds-running-on-ground-1633522/
 https://www.pexels.com/photo/a-dog-biting-a-branch-12729351/
 https://www.pexels.com/photo/adorable-puppy-with-opened-mouth-4731108/
+https://www.pexels.com/photo/cute-puppies-resting-together-on-plaid-6058063/
 
 -------------------------------------
 
