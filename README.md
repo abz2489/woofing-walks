@@ -142,16 +142,22 @@ The contact form collects the dog owner's information and basic information for 
 # Technologies Used
 
 ## Languages Used
-- HTML5
-- CSS3
+[HTML5,](https://en.wikipedia.org/wiki/HTML5)
+
+[CSS3,](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks, Libraries & Programs used
-- Balsamiq
-- Git
-- GitHub
-- Bootstrap 5.3
-- Font Awesome
-- Google Fonts
+[Balsamiq,](https://balsamiq.com/) used to create the wireframes at the beginning of the design process.
+
+[Git,](https://git-scm.com/) used for version control. I used the terminal and git commit/push commands and the source control panel.
+
+[GitHub,](https://github.com/) used as storage for the Woofing Walks repository.
+
+[Bootstrap 5.3,](https://getbootstrap.com/) used for responsive layout, some bootstrap styles were customised in the css stylesheet for the project.
+
+[Font Awesome,](https://fontawesome.com/) used to import icons to the home page and about page for UX purposes.
+
+[Google Fonts,](https://fonts.google.com/) used to import all fonts used on the website.
 
 # **Testing**
 
@@ -316,6 +322,7 @@ Woofing Walks' live website was deployed using GitHub Pages.
 # **Credits**
 
 https://www.joshwcomeau.com/animation/css-transitions/ - This article helped me with my nav brand transition.
+https://blog.hubspot.com/website/html-redirect
 ## Content
 ## Media
 
@@ -323,12 +330,14 @@ All images for Woofing Walks were sourced from [Pexels](https://www.pexels.com).
 ### Index Page
 -[Hero Image](https://www.pexels.com/photo/two-adult-harrier-dogs-standing-beside-river-1144410/)
 
--[About Page, Our Story section](https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/)
+### About Page
+-[Our Story section Image](https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/)
 
-https://www.pexels.com/photo/two-adult-black-and-tan-german-shepherds-running-on-ground-1633522/
-https://www.pexels.com/photo/a-dog-biting-a-branch-12729351/
-https://www.pexels.com/photo/adorable-puppy-with-opened-mouth-4731108/
-https://www.pexels.com/photo/cute-puppies-resting-together-on-plaid-6058063/
+-[Our Mission Section Image](https://www.pexels.com/photo/adorable-puppy-with-opened-mouth-4731108/)
+
+### Thank You Page
+-[Thank You Image](https://www.pexels.com/photo/cute-dogs-lying-on-the-porch-with-a-laptop-notebook-and-pen-9040620/)
+
 
 -------------------------------------
 
