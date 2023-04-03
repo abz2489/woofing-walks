@@ -69,6 +69,7 @@ p {
 #footer {
     background-color: #4c956c;
     text-align: center;
+    margin-top: 1rem;
 }
 
 a {
@@ -212,6 +213,31 @@ button#green-btn.button  {
     padding: 1rem 0.5rem;
 }
 
+/*Thank You Page*/
+.thank-you {
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.thank-you-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.thank-you-p {
+    font-size: 1.5rem;
+}
+
+.thank-you-img {
+    height: 50%;    
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.button.button-redirect {
+    margin: 1rem
+}
 /* Media Queries */
 @media (min-width: 576px) {
     .navbar-brand {
