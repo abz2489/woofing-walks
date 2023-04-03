@@ -134,6 +134,12 @@ The contact form collects the dog owner's information and basic information for 
 ![Contact Form Section](docs/supp-images/f09-contact-form-2.webp)
 </details>
 
+<details><summary>F10 Thank You Page</summary> 
+When the user successfully completes the contact form, they will be taken to the thank you page. The thank you page will redirect back to the home page within 5 seconds. If the redirect fails, there is a home button displayed as a back up.
+
+![Thank You Page](docs/supp-images/f10-thank-you.webp)
+</details>
+
 ### **Future Features**
 1. In the future, I plan to add a gallery page.
 2. In the future, I intend to introduce a FAQ section.
@@ -196,10 +202,21 @@ The contact form collects the dog owner's information and basic information for 
 ![Contact HTML Validation Pass](docs/testing/w3c/contact-html-pass.webp)
 </details>
 
+### **Thank you Page**
+<details><summary>The first HTML validation flagged a trailing slash at the end of the img tag. This was removed.</summary>
+
+![Thank You HTML Validation Errors](docs/testing/w3c/thank-you-html-error.webp)
+</details>
+
+<details><summary>The second HTML validation showed no errors.</summary>
+
+![Thank You HTML Validation Pass](docs/testing/w3c/thank-you-html-pass.webp)
+</details>
+
 ### **CSS**
 <details><summary>The CSS validator showed no errors.</summary>
 
-![CSS Validation Result](docs/testing/w3c/css-pass.webp)
+![CSS Validation Result](docs/testing/w3c/css-validator-pass.webp)
 </details>
 
 ## **Lighthouse Testing**
