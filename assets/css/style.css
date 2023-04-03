@@ -69,7 +69,7 @@ p {
 #footer {
     background-color: #4c956c;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 a {
@@ -272,6 +272,19 @@ button#green-btn.button  {
     a.nav-link {
         padding: 10px;
     }
+
+    .thank-you {
+        margin-top: 4rem;
+    }
+
+    .thank-you-title {
+        font-size: 3rem;
+    }
+
+    .button.button-redirect {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -310,5 +323,10 @@ button#green-btn.button  {
         position: absolute;
         bottom: 0;
         background-color: rgba(76, 149, 108, 0.8)
-    }  
+    }
+    
+    .thank-you-img {
+        height: 25%;
+        width: 25%;
+    }
 }
