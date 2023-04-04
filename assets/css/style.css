@@ -9,10 +9,10 @@ body > footer {
 }
 
 body {
-    font-family: "Heebo", sans-serif;
-    text-align: center;
     background-color: #f5f5f5;
     color: #203E56;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6, .button {
@@ -27,8 +27,9 @@ p {
 
 /* Navbar */
 .navbar {
-    padding: 0;
     background-color: #4c956c;
+
+    padding: 0;
 }
 
 .navbar-brand {
@@ -36,6 +37,7 @@ p {
     color: #f5f5f5;
     font-weight: 700;
     font-size: 2.5rem;
+
     margin-left: 1.25rem;
 
     transition: transform 350ms;
@@ -43,6 +45,7 @@ p {
 
 .navbar-brand:hover {
     color:#f5f5f5;
+
     transform: translateY(-10px);
 }
 
@@ -61,6 +64,7 @@ p {
 
 .nav-link.button:hover {
     color: #f5f5f5;
+
     padding: 0.5rem;
 }
 
@@ -73,6 +77,7 @@ p {
 /* Footer */
 #footer {
     background-color: #4c956c;
+
     text-align: center;
     margin-top: 2rem;
 }
@@ -97,27 +102,30 @@ i {
 }
 
 .cta-container {
-    width: 100%;
     background-color: #4c956c;
+
+    width: 100%;
 }
 
 .cta-title {
     color: #f5f5f5;
+
     text-align: center;
     padding: 1.56rem 1.88rem 0.31rem;
     margin-bottom: 0.5rem;
 }
 
 .cta-button {
-    margin: 1rem;
-    padding: 0.5rem;
     font-size: 1.3rem;
     text-decoration: none;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 
 /*HP Services Summary */
-.sub-title {
+.services-sub-title {
     font-size: 2.19rem;
+
     padding-top: 0.94rem;
 }
 
@@ -126,6 +134,7 @@ div.services-container {
     color: #f5f5f5;
     border: 4px solid #203E56;
     border-radius: 0.94rem;
+
     margin: 1.88rem 0.31rem 0.63rem 0;
 }
 
@@ -134,12 +143,14 @@ div.services-container {
 .story-section {
     background-color: #203E56;
     color: #f5f5f5;
+
     padding: 0 0 3rem;
     
 }
 
 .about-titles {
     font-size: 2.75rem;
+
     margin-bottom: 1rem;
     padding-top: 2rem;
 }
@@ -150,6 +161,7 @@ div.services-container {
 
 img.story-img {
     border-radius: 0.94rem;
+
     margin-top: 1rem;
 }
 
@@ -160,9 +172,10 @@ img.story-img {
 }
 
 hr {
+    color:#33658a;
+
     width: 75%;
     margin: auto;
-    color:#33658a;
 }
 
 /*AP How it Works Section*/
@@ -170,6 +183,7 @@ i.round {
     background-color: #203E56;
     color: #f5f5f5;
     border-radius: 50%;
+
     margin: 1.5rem 1.5rem 0em;
 }
 
@@ -188,6 +202,7 @@ label {
 .form-control.height {
     height: 10rem;
 }
+
 #green {
     background-color: #4c956c;
     font-size: 1.15rem;
@@ -196,11 +211,12 @@ label {
     padding: 0.75rem;
 }
 
-button#green-btn.button  {
+button#submit-btn.button  {
     background-color: #4c956c;
-    padding: 1rem;
     font-size: 1.5rem;
+
     display:flex;
+    padding: 1rem;
     margin: auto;
 }
 
@@ -234,6 +250,7 @@ button#green-btn.button  {
 .button.button-redirect {
     margin: 1rem
 }
+
 /* Media Queries */
 @media (min-width: 576px) {
     .navbar-brand {
@@ -254,6 +271,7 @@ button#green-btn.button  {
     h1 {
         font-size: 2.2rem;
     }
+
     div h2 {
         font-size: 1.57rem;
     }
