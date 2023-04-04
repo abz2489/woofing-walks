@@ -168,8 +168,36 @@ When the user successfully completes the contact form, they will be taken to the
 # **Testing**
 
 ## **Responsiveness**
-<details><summary>iPhone </summary>
-</details>
+
+## **Browser Compatibility**
+
+## **Solved Bugs**
+1. Footer cuts off bottom content on mobile devices in chrome browser. Content cut off fixed by switching from fixed-bottom to sticky-bottom. 
+
+2. W3C validator showed error with nav buttons including a tags. I fixed this by removing the button tag, adding a button class and styling the button using CSS. Fixing this error affected my "more info" button in my hero image section. This was easily fixed by adding the button class previously used.
+
+3. Whitespace showing to the right of index page. I used Chrome dev tools and found that the bootstrap row class was adding unwanted gutter. I removed this by using g-0 class alongside the row class.
+
+4. Contact Form page has whitespace to the right. Using dev tools, I could see that one of my row divs was causing the issue, but wasn't sure which one. I added background-color: red to one div and background-color: blue to another to identify. I then added margin:auto to the problem div in CSS.
+
+![contact-bug-4](docs/supp-images/contact-bug-4.webp)
+
+
+5. Nav buttons are showing too large on medium screens (768px) on the Index Page and Contact Page. Bug fixed by removing larger font size in the 768px media query.
+
+6. Image in the Our Story section distorted. Changed the original image to square, using windows. Coverted the image to Webp and replaced existing image to fix the bug.
+
+7. Overlay is floating upwards when changing screen sizes for larger screens. Issue was fixed by adding bottom:0 to cta-container, it now sits flush to the bottom of the hero image.
+
+![overlay-bug-7](docs/supp-images/overlay-bug-7.webp)
+
+8. Fixing the overlay bug caused the container to be in a fixed position on mobile and tablet devices. Dev tools was used to find the declaration causing the issue, position:fixed. By removing this the bug is fixed and the container sits directly beneath the hero image as intended.
+
+![container-bug-8](docs/supp-images/container-bug-8.webp)
+
+9. Contact form showed 405 error page when submitted. Bug fixed by removing method="POST" attribute from form tag.
+## **Unfixed Bugs**
+
 ## **W3C Validator Testing**
 ### **Index Page** 
 <details><summary>The first HTML validation test flagged a services ID used multiple times. This was removed to fix the errors.</summary>
@@ -230,7 +258,7 @@ First Test:
 ![Index Page Mobile Initial Test](docs/testing/Lighthouse/index-lighthouse-mobile-first-test.webp)
 
 Final Test:
-![Index Page Mobile Initial Test](docs/supp-images/index-lighthouse-mobile-final-test.webp)
+![Index Page Mobile Initial Test](docs/testing/Lighthouse/index-lighthouse-mobile-final-test.webp)
 
 </details>
 
@@ -243,7 +271,7 @@ Final Test:
 
 First Test:
 
-![Index Page Mobile Initial Test](docs/supp-images/index-lighthouse-desktop-first-test.webp)
+![Index Page Desktop Initial Test](docs/testing/Lighthouse/index-lighthouse-desktop-first-test.webp)
 
 </details>
 
@@ -253,7 +281,7 @@ First Test:
 
 First Test:
 
-![About Page Mobile Initial Test](docs/supp-images/about-lighthouse-mobile-first-test.webp)
+![About Page Mobile Initial Test](docs/testing/Lighthouse/about-lighthouse-mobile-first-test.webp)
 
 </details>
 
@@ -262,7 +290,7 @@ First Test:
 
 First Test:
 
-![About Page Mobile Initial Test](docs/supp-images/about-lighthouse-desktop-first-test.webp)
+![About Page Mobile Initial Test](docs/testing/Lighthouse/about-lighthouse-desktop-first-test.webp)
 
 </details>
 
@@ -271,7 +299,7 @@ First Test:
 
 First Test:
 
-![IContact Page Mobile Initial Test](docs/supp-images/index-lighthouse-desktop-first-test.webp)
+![IContact Page Mobile Initial Test](docs/testing/Lighthouse/contact-lighthouse-mobile-first-test.png)
 
 </details>
 
@@ -280,7 +308,7 @@ First Test:
 
 First Test:
 
-![Contact Page Mobile Initial Test](docs/supp-images/index-lighthouse-desktop-first-test.webp)
+![Contact Page Mobile Initial Test](docs/testing/Lighthouse/contact-lighthouse-desktop-first-test.png)
 
 </details>
 
@@ -303,6 +331,27 @@ First Test:
 </details>
 
 ## **User Story Testing**
+**First Time Visitor Goals**
+
+1. I need to quickly identify what Woofing Walks is and where they are based.
+- The Home Page displays a "Dog Walking Services" title along with the area the services are offered. This is immediately visible when the home page loads and requires no scrolling to see.
+2. I need to easily navigate the Woofing Walks website so I can find information on Woofing Walks' services.
+- The navigation bar has clearly defined buttons for each page. The about page is accessible from the nav bar and the call to action "About Us" button in the hero image overlay.
+3. I need to find pricing information of Woofing Walks' services.
+- The price of Woofing Walks' services is included in the services summary section on the home page.
+
+**Returning Visitor Goals**
+
+4. I need to easily find contact information so I can book a walk or ask more questions.
+- The contact button is clearly defined in the navigation bar on all pages. The contact information for Woofing Walks is displayed at the very top of the contact page and is the first thing the user will see.
+5. I need to easily access Woofing Walks' social media so I can follow.
+- Social links are located in the footer of each page and open in a new tab when clicked.
+
+**Frequent Visitor Goals**
+
+6. I need to find information on other services Woofing Walks offer.
+- The services summary section of the Home Page includes information on doggy day care service. This section also promotes intrigue by showing that dog training school is coming soon.
+
 ### Solved Bugs
 1. Footer cuts off bottom content on mobile devices in chrome browser. Content cut off fixed by switching from fixed-bottom to sticky-bottom. 
 
