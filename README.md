@@ -165,6 +165,8 @@ When the user successfully completes the contact form, they will be taken to the
 
 [Google Fonts,](https://fonts.google.com/) used to import all fonts used on the website.
 
+[Fonticon,](https://gauger.io/fonticon/) used to create favicon.
+
 # **Testing**
 
 ## **Responsiveness**
