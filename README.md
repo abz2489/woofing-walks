@@ -170,8 +170,41 @@ When the user successfully completes the contact form, they will be taken to the
 # **Testing**
 
 ## **Responsiveness**
+### **iPhone 5/SE** 320px
+
+### **iPhone 6/7/8** 375px
+
+### **Galaxy S8** 360px
+
+### **Samsung Galaxy S20 Ultra** 412px
+
+### **iPad Mini** 768px
+
+### **ipad Air** 820px
+
+### **Desktop** 1200px
+
+### **Desktop** 1400px
+
+ 
+
+
 
 ## **Browser Compatibility**
+
+### **Google Chrome**
+*Version 111.0.5563.146 (Official Build) (64-bit)*
+
+
+### **Mozilla Firefox**
+*111.0.1 (64-bit)*
+
+### **Microsoft Edge**
+*Version 111.0.1661.62 (Official build) (64-bit)*
+
+### **Android**
+
+### **Apple**
 
 ## **Solved Bugs**
 1. Footer cuts off bottom content on mobile devices in chrome browser. Content cut off fixed by switching from fixed-bottom to sticky-bottom. 
