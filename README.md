@@ -170,171 +170,56 @@ When the user successfully completes the contact form, they will be taken to the
 # **Testing**
 
 ## **Responsiveness**
-![Responsivity Table](docs/testing/responsive-test/responsive-test.webp)
+![Responsivity Table](docs/testing/responsive-test/responsivity-table.webp)
 
 ### **iPhone 5/SE** 320px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
-</details>
+![iPhone 5 responsive test](docs/testing/responsive-test/iphone5-responsive-test.webp)
 
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
 </details>
 
 ### **iPhone 6/7/8** 375px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
-</details>
-
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
+![iPhone 6/7/8 responsive test](docs/testing/responsive-test/iphone678-responsive-test.webp)
 </details>
 
 ### **Galaxy S8** 360px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
-</details>
-
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
+![Galaxy S8 responsive test](docs/testing/responsive-test/galaxys8-responsive-test.webp)
 </details>
 
 ### **Samsung Galaxy S20 Ultra** 412px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
-</details>
-
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
+![Galaxy S20 Ultra responsive test](docs/testing/responsive-test/galaxys20ultra-responsive-test.webp)
 </details>
 
 ### **iPad Mini** 768px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
-</details>
-
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
+![iPad Mini responsive test](docs/testing/responsive-test/ipadmini-responsive-test.webp)
 </details>
 
 ### **ipad Air** 820px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
-</details>
-
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
+![iPad Air responsive test](docs/testing/responsive-test/ipadair-responsive-test.webp)
 </details>
 
 ### **Desktop** 1200px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
-</details>
-
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
+![Desktop 1200px responsive test](docs/testing/responsive-test/desktop1200-responsive-test.webp)
 </details>
 
 ### **Desktop** 1400px
-<details><summary>Click Here for Home Page Images</summary>
+<details><summary>Click Here</summary>
 
-![Home Page 1]()
-![Home Page 2]()
+![Desktop 1400px responsive test](docs/testing/responsive-test/desktop1400-responsive-test.webp)
 </details>
-
-<details><summary>Click Here for About Page Images</summary>
-
-![About Page 1]()
-![About Page 2]()
-![About Page 3]()
-</details>
-
-<details><summary>Click Here for Contact Page Images</summary>
-
-![Contact Page 1]()
-![Caontact Page 2]()
-</details>
-
- 
-
-
 
 ## **Browser Compatibility**
 
