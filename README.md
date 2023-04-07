@@ -226,16 +226,39 @@ When the user successfully completes the contact form, they will be taken to the
 ### **Google Chrome**
 *Version 111.0.5563.146 (Official Build) (64-bit)*
 
+Website displayed as expected and all links, features functioning correctly.
+![Chrome](docs/testing/browser-compatibility-test/browser-compatibility-chrome.webp)
+
 
 ### **Mozilla Firefox**
 *111.0.1 (64-bit)*
 
+Website displayed as expected and all links, features functioning correctly.
+![Firefox](docs/testing/browser-compatibility-test/browser-compatibility-firefox.webp)
+
 ### **Microsoft Edge**
 *Version 111.0.1661.62 (Official build) (64-bit)*
 
-### **Android**
+Website displayed as expected and all links, features functioning correctly.
+![Edge](docs/testing/browser-compatibility-test/browser-compatibility-edge.webp)
 
-### **Apple**
+### **Samsung Internet**
+- Website displayed as expected. 
+- The Instagram link remains unavailable for three seconds when you reach the bottom of the page due to a browser up arrow covering it. The link works perfectly when the up arrow button times out.
+- The browser displays the website differently if the phone is set to dark mode.
+
+<details><summary>Click here</summary>
+
+![Samsung Internet](docs/testing/browser-compatibility-test/browser-compatibility-samsung.webp)
+</details>
+<details><summary>Click here</summary>
+
+![Samsung Internet link](docs/testing/browser-compatibility-test/browser-compatibility-samsung-link.webp)
+</details>
+<details><summary>Click here</summary>
+
+![Samsung Internet dark mode](docs/testing/browser-compatibility-test/browser-compatibility-samsung-dark-mode.webp)
+</details>
 
 ## **Solved Bugs**
 1. Footer cuts off bottom content on mobile devices in chrome browser. Content cut off fixed by switching from fixed-bottom to sticky-bottom. 
@@ -263,8 +286,10 @@ When the user successfully completes the contact form, they will be taken to the
 
 9. Contact form showed 405 error page when submitted. Bug fixed by removing method="POST" attribute from form tag.
 ## **Unfixed Bugs**
+There are no known bugs.
 
 ## **W3C Validator Testing**
+
 ### **Index Page** 
 <details><summary>The first HTML validation test flagged a services ID used multiple times. This was removed to fix the errors.</summary>
 
@@ -474,23 +499,38 @@ Woofing Walks' live website was deployed using GitHub Pages.
 
 # **Credits**
 
-https://www.joshwcomeau.com/animation/css-transitions/ - This article helped me with my nav brand transition.
-https://blog.hubspot.com/website/html-redirect
-## Content
-## Media
+## **Content**
+All website content was written by the developer, using the following websites for inspiration. 
+- [Kent Dog Walker](https://kentdogwalker.co.uk/)
+- [Muddy Paws Dog Walking](http://www.muddypawsdogwalking.co.uk/)
 
+## **Media**
 All images for Woofing Walks were sourced from [Pexels](https://www.pexels.com).
+
 ### Index Page
--[Hero Image](https://www.pexels.com/photo/two-adult-harrier-dogs-standing-beside-river-1144410/)
+- [Hero Image](https://www.pexels.com/photo/two-adult-harrier-dogs-standing-beside-river-1144410/)
 
 ### About Page
--[Our Story section Image](https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/)
+- [Our Story section Image](https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/)
 
--[Our Mission Section Image](https://www.pexels.com/photo/adorable-puppy-with-opened-mouth-4731108/)
+- [Our Mission Section Image](https://www.pexels.com/photo/adorable-puppy-with-opened-mouth-4731108/)
 
 ### Thank You Page
--[Thank You Image](https://www.pexels.com/photo/cute-dogs-lying-on-the-porch-with-a-laptop-notebook-and-pen-9040620/)
+- [Thank You Image](https://www.pexels.com/photo/cute-dogs-lying-on-the-porch-with-a-laptop-notebook-and-pen-9040620/)
 
+## **Code**
+The article on [CSS Transistions](https://www.joshwcomeau.com/animation/css-transitions/) helped me with my nav brand and nav link transition.
 
--------------------------------------
+This article on [CSS Image Overlay](https://imagekit.io/blog/css-image-overlay/) helped create the hero image overlay.
+
+The redirect meta tag was taken from this [Hubspot](https://blog.hubspot.com/website/html-redirect) article.
+
+[W3Schools](https://www.w3schools.com/) was used to refresh on both HTML and CSS topics.
+
+## **Acknowledgements**
+My mentor Chris Quinn for his helpful tips, advice and, most importantly, his feedback on this project.
+
+Cohort lead Nathan Parry for his time and support when needed.
+
+Cohort facilitator Iris Smok for providing helpful resources and guidance throughout.
 
