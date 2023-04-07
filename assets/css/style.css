@@ -145,6 +145,10 @@ div.services-container {
     margin: 1.88rem 0.31rem 0.63rem 0;
 }
 
+.coming-soon {
+    font-size: 3rem;
+}
+
 /*About Page (AP)*/
 /*AP Our Story Section*/
 .story-section {
@@ -264,6 +268,10 @@ button#submit-btn.button {
 }
 
 @media (min-width: 576px) {
+    p {
+        font-size: 1.50rem;
+    }
+
     .navbar-brand {
         font-size: 4rem;
         margin-left: 1.25rem;
