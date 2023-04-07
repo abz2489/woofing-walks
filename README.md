@@ -36,12 +36,12 @@ Google Fonts was used for all fonts on the website
 ### **Home Page**
 <details><summary>Mobile</summary>
 
-![Mobile](docs/supp-images/wf-index-mobile.webp)
+![Mobile](docs/wireframes/wf-index-mobile.webp)
 </details>
 
 <details><summary>Desktop</summary>
 
-![Desktop](docs/supp-images/wf-index.webp)
+![Desktop](docs/wireframes/wf-index.webp)
 </details>
 
 The Homepage design stayed the same, with the addition of a page title that displays underneath the hero image on mobile devices and as an overlay on larger screens. The title tells the user instantly what the website is and where the services are offered.
@@ -49,12 +49,12 @@ The Homepage design stayed the same, with the addition of a page title that disp
 ### **About Page**
 <details><summary>Mobile</summary>
 
-![Mobile](docs/supp-images/wf-about-mobile.webp)
+![Mobile](docs/wireframes/wf-about-mobile.webp)
 </details>
 
 <details><summary>Desktop</summary>
 
-![Desktop](docs/supp-images/wf-about.webp)
+![Desktop](docs/wireframes/wf-about.webp)
 </details>
 
 The "Why choose us?" section was changed to "Our Mission". I didn't want two lists at the bottom of the about page. The "How it works" sections made more sense as it explains the next steps clearly to potential new customers.
@@ -62,12 +62,12 @@ The "Why choose us?" section was changed to "Our Mission". I didn't want two lis
 ### **Contact Page**
 <details><summary>Mobile</summary>
 
-![Mobile](docs/supp-images/wf-signup-mobile.webp)
+![Mobile](docs/wireframes/wf-signup-mobile.webp)
 </details>
 
 <details><summary>Desktop</summary>
 
-![Desktop](docs/supp-images/wf-signup.webp)
+![Desktop](docs/wireframes/wf-signup.webp)
 </details>
 
 The contact details were moved to the top of the page to ensure that they're found easily. The option to sign up for a newsletter didn't quite coincide with the need to attract new business. Having a simple online form to capture basic details of the customer and their dog is a much more effective way to onboard new customers.
