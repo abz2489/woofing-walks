@@ -4,7 +4,7 @@
 [View the Woofing Walks live website here](https://abz2489.github.io/woofing-walks/)
 
 Woofing Walks is a dog walking service based in the Rhondda Valleys. The aim of the website is to promote Woofing Walks' services and attract new customers to the business. Woofing Walks is aimed at dog owners looking for trusted dog walkers in their local area. 
-The website provides information of what new customers can expect from their services. It also includes walk times, prices & contact information.
+The website provides information of what new customers can expect from their services. It also includes walk times, prices and contact information. The website promotes other services on offer or upcoming.
 
 
 # **User Experience (UX)**
@@ -20,7 +20,7 @@ The website provides information of what new customers can expect from their ser
 - I need to easily access Woofing Walks' social media so I can follow.
 
 ### **Frequent Visitor Goals**
-- I need to find information on new services Woofing Walks offer.
+- I need to find information on different services Woofing Walks offer.
 
 
 # **Design**
@@ -78,7 +78,7 @@ The contact details were moved to the top of the page to ensure that they're fou
 
 ### **Home Page**
 <details><summary>F01 Navigation Bar</summary>
-The nav bar looks the save across all pages. The nav brand is a simple font and when clicked will take users back to the index page from all pages. The nav includes three links; Home, About and Contact. All three have been styled to stand out as buttons. All links are functioning and when clicked will take the user to the correct pages.
+The nav bar looks the same across all pages. The nav brand is a simple font and when clicked will take users back to the index page from all pages. The nav includes three links; Home, About and Contact. All three have been styled to stand out as buttons. All links are functioning and when clicked will take the user to the correct pages.
 
 ![Navigation Bar](docs/supp-images/f01-nav-bar.webp)
 </details>
@@ -109,20 +109,20 @@ The footer is uniform across all three pages. The footer includes three social m
 </details>
 
 <details><summary>F06 Our Mission</summary> 
-Our Mission section is a small section including the mission statemnt and horizantal rule before the next section.
+Our Mission section is a small section including the mission statment and a picture of a happy dog.
 
 ![Our Mission Section](docs/supp-images/f06-mission-section.webp)
 </details>
 
 <details><summary>F07 How it Works Section</summary> 
-How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for dog walking.
+How it works sections consists of three stages summarising what the user needs to do next and what will happen before we register their dog for our services.
 
 ![How to works section](docs/supp-images/f07-how-it-works-section.webp)
 </details>
 
 ### **Contact Page**
 <details><summary>F08 Contact Information Section</summary> 
-The contact information is placed at the top of the page so it's the first thing the user sees when contact page loads.
+The contact information is placed at the top of the page so it's the first thing the user sees when contact page loads. There's an email contact and telephone contact so the user has choice as well as filling out the online form.
 
 ![Contact Information Section](docs/supp-images/f08-contact-information.webp)
 </details>
@@ -170,21 +170,167 @@ When the user successfully completes the contact form, they will be taken to the
 # **Testing**
 
 ## **Responsiveness**
+![Responsivity Table](docs/testing/responsive-test/responsive-test.webp)
+
 ### **iPhone 5/SE** 320px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
 ### **iPhone 6/7/8** 375px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
 ### **Galaxy S8** 360px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
 ### **Samsung Galaxy S20 Ultra** 412px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
 ### **iPad Mini** 768px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
 ### **ipad Air** 820px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
 ### **Desktop** 1200px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
 ### **Desktop** 1400px
+<details><summary>Click Here for Home Page Images</summary>
+
+![Home Page 1]()
+![Home Page 2]()
+</details>
+
+<details><summary>Click Here for About Page Images</summary>
+
+![About Page 1]()
+![About Page 2]()
+![About Page 3]()
+</details>
+
+<details><summary>Click Here for Contact Page Images</summary>
+
+![Contact Page 1]()
+![Caontact Page 2]()
+</details>
 
  
 
